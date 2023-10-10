@@ -1,5 +1,4 @@
 # Ece-devopsMassiAdil
-#test
 # Ece-devopsMassiAdil
 Nom du module :  Devops
 Nom et prenom du groupe : 
@@ -45,7 +44,7 @@ J'ai suivi ces étapes pour commencer avec le projet de laboratoire :
 1. J'ai cloné le dépôt :
 
    ```shell
-   git https://github.com/adilbench/Ece-devopsMassiAdil.git
+   git clone https://github.com/adilbench/Ece-devopsMassiAdil.git
    cd lab3
    
 ## Structure du Projet
