@@ -44,7 +44,7 @@ J'ai suivi ces étapes pour commencer avec le projet de laboratoire :
 1. J'ai cloné le dépôt :
 
    ```shell
-   git https://github.com/adilbench/Ece-devopsMassiAdil
+   git https://github.com/adilbench/Ece-devopsMassiAdil.git
    cd lab3
    
 ## Structure du Projet
