@@ -44,23 +44,17 @@ J'ai suivi ces étapes pour commencer avec le projet de laboratoire :
 1. J'ai cloné le dépôt :
 
    ```shell
-   git clone https://github.com/mon-nom-utilisateur/laboratoire-tests-continus.git
-   cd laboratoire-tests-continus/lab
-J'ai installé les dépendances de l'application :
+   git https://github.com/adilbench/Ece-devopsMassiAdil
+   cd lab3
+   
+## Structure du Projet
+Voici une vue d'ensemble de la structure du projet :
 
-shell
-Copy code
-npm install
-J'ai exécuté les tests pour m'assurer que tout était configuré correctement :
+app.js: Le fichier principal de l'application.
+index.js: Le point d'entrée de l'application.
+routes/CreateUser.js: Le fichier de gestion de la création d'utilisateurs.
+routes/getUser.js: Le fichier de gestion de la récupération d'utilisateurs.
 
-shell
-Copy code
-npm test
-J'ai démarré l'application :
-
-shell
-Copy code
-npm start
 1. Utiliser l'Application API Utilisateur Préparée et Exécuter des Tests
 Dans cette section, j'ai travaillé avec l'application API utilisateur existante. J'ai suivi les instructions fournies dans le dossier du laboratoire pour exécuter l'application et ses tests.
 
@@ -77,6 +71,4 @@ J'ai créé une méthode GET utilisateur pour l'API REST, y compris deux tests d
 
 Obtenir avec succès un utilisateur.
 Assurer que je ne peux pas obtenir un utilisateur s'il n'existe pas.
-J'ai défini la route GET utilisateur (dans lab/src/routes/user.js). 
-
-
+J'ai défini la route GET utilisateur (dans lab/src/routes/getUser.js).
