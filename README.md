@@ -18,10 +18,10 @@ Technologies utilisée:
 - NodeJS 
 - GitHub/GitHub Desktop
 
-Laboratoire sur les Tests Continus et le Développement Piloté par les Tests (TDD)
+# Laboratoire sur les Tests Continus et le Développement Piloté par les Tests (TDD)
 Ce laboratoire a pour objectif de vous permettre de pratiquer les tests continus et le développement piloté par les tests (TDD) en travaillant sur une application API utilisateur. Voici comment vous pouvez commencer avec ce projet.
 
-Prérequis
+#Prérequis
 Avant de commencer, assurez-vous d'avoir configuré les éléments suivants sur votre environnement de développement :
 
 Base de données Redis : Vous devez avoir installé et démarré la base de données Redis en suivant les instructions d'installation adaptées à votre plateforme. Vous pouvez trouver ces instructions dans la documentation officielle de Redis.
@@ -40,7 +40,7 @@ Copy code
 git clone https://github.com/adilbench/Ece-devopsMassiAdil.git
 cd lab3
 Structure du Projet
-Voici un aperçu de la structure du projet :
+# Voici un aperçu de la structure du lab3 :
 
 app.js : Le fichier principal de l'application.
 index.js : Le point d'entrée de l'application.
