@@ -16,59 +16,37 @@ Technologies utilisée:
 - VMware virtualisation 
 - Ubuntu distribution Linux 
 - NodeJS 
-- GitHub/GitHub Desktopmassinaoierqhd<
+- GitHub/GitHub Desktop
 
-## Laboratoire sur les Tests Continus
+Laboratoire sur les Tests Continus et le Développement Piloté par les Tests (TDD)
+Ce laboratoire a pour objectif de vous permettre de pratiquer les tests continus et le développement piloté par les tests (TDD) en travaillant sur une application API utilisateur. Voici comment vous pouvez commencer avec ce projet.
 
-## Objectifs
+Prérequis
+Avant de commencer, assurez-vous d'avoir configuré les éléments suivants sur votre environnement de développement :
 
-Ce projet de laboratoire a pour but de me permettre de pratiquer les tests continus et le développement piloté par les tests (TDD) en travaillant sur une application API utilisateur. Mes objectifs principaux sont les suivants :
+Base de données Redis : Vous devez avoir installé et démarré la base de données Redis en suivant les instructions d'installation adaptées à votre plateforme. Vous pouvez trouver ces instructions dans la documentation officielle de Redis.
 
-1. Utiliser l'application API utilisateur préparée et exécuter des tests.
-2. Implémenter une fonctionnalité GET utilisateur en utilisant la méthodologie TDD.
+IDE ou éditeur de texte : Vous pouvez utiliser l'éditeur de code de votre choix, tel que Atom ou VS Code.
 
-## Prérequis
+Node.js : Assurez-vous d'avoir Node.js installé sur votre système. Vous pouvez le télécharger depuis le site officiel de Node.js.
 
-Avant de commencer, j'ai configuré les éléments suivants sur mon environnement de développement :
+Mise en Route
+Suivez ces étapes pour commencer avec le projet de laboratoire :
 
-1. **Base de données Redis** : J'ai installé et démarré la base de données Redis en suivant les instructions d'installation pour différentes plates-formes disponibles dans la [documentation officielle Redis](https://redis.io/topics/quickstart).
+Clonez le dépôt du projet :
 
-2. **IDE ou éditeur de texte** : J'ai installé un éditeur de code de mon choix, tel que [Atom](https://atom.io/) ou [VS Code](https://code.visualstudio.com/).
+shell
+Copy code
+git clone https://github.com/adilbench/Ece-devopsMassiAdil.git
+cd lab3
+Structure du Projet
+Voici un aperçu de la structure du projet :
 
-3. **Node.js** : J'ai installé Node.js depuis le [site officiel](https://nodejs.org/).
+app.js : Le fichier principal de l'application.
+index.js : Le point d'entrée de l'application.
+routes/createUser.js : Le fichier de gestion de la création d'utilisateurs.
+routes/getUser.js : Le fichier de gestion de la récupération d'utilisateurs.
+Objectifs du Laboratoire
+Utiliser l'application API Utilisateur préparée et exécuter des tests : Vous pouvez exécuter des tests pour vous assurer du bon fonctionnement de l'application en utilisant la commande npm test.
 
-## Pour Commencer
-
-J'ai suivi ces étapes pour commencer avec le projet de laboratoire :
-
-1. J'ai cloné le dépôt :
-
-   ```shell
-   git clone https://github.com/adilbench/Ece-devopsMassiAdil.git
-   cd lab3
-   
-## Structure du Projet
-Voici une vue d'ensemble de la structure du projet :
-
-app.js: Le fichier principal de l'application.
-index.js: Le point d'entrée de l'application.
-routes/CreateUser.js: Le fichier de gestion de la création d'utilisateurs.
-routes/getUser.js: Le fichier de gestion de la récupération d'utilisateurs.
-
-1. Utiliser l'Application API Utilisateur Préparée et Exécuter des Tests
-Dans cette section, j'ai travaillé avec l'application API utilisateur existante. J'ai suivi les instructions fournies dans le dossier du laboratoire pour exécuter l'application et ses tests.
-
-2. Implémenter la Fonctionnalité GET Utilisateur (TDD)
-Dans cette section, j'ai implémenté une fonctionnalité GET utilisateur en utilisant la méthodologie du développement piloté par les tests (TDD). J'ai suivi ces étapes :
-
-J'ai créé le contrôleur get utilisateur, y compris deux tests unitaires (dans lab/test/user.controller.js) :
-
-Obtenir un utilisateur par nom d'utilisateur.
-Assurer que je ne peux pas obtenir un utilisateur s'il n'existe pas.
-J'ai implémenté la méthode du contrôleur (dans lab/src/controllers/user.js).
-
-J'ai créé une méthode GET utilisateur pour l'API REST, y compris deux tests d'API (dans lab/test/user.router.js) :
-
-Obtenir avec succès un utilisateur.
-Assurer que je ne peux pas obtenir un utilisateur s'il n'existe pas.
-J'ai défini la route GET utilisateur (dans lab/src/routes/getUser.js).
+Implémenter une fonctionnalité GET utilisateur en utilisant la méthodologie TDD : Suivez les étapes du laboratoire pour créer la fonctionnalité GET utilisateur en utilisant le développement piloté par les tests (TDD).
