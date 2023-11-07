@@ -2,8 +2,8 @@
 - Nom du module :  Devops
 
 - Nom et prenom du groupe : 
-                        - Rahem Massinissa
-                        - Adil Becheqroune 
+                        - Rahem Massinissa.
+                        - Adil Becheqroune.
 
 Specialite : Msc Management de la Cybersecurite 
 
