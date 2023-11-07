@@ -1,7 +1,7 @@
 # Ece-devopsMassiAdil
-Nom du module :  Devops
+- Nom du module :  Devops
 
-Nom et prenom du groupe : 
+- Nom et prenom du groupe : 
                         - Rahem Massinissa
                         - Adil Becheqroune 
 
